@@ -1,0 +1,9 @@
+2022-01-24 14:03:10 [ThreadId 11] ERROR phoityne - ghci launch error. <file descriptor: 49>: hPutChar: resource vanished (Broken pipe)
+
+2022-01-24 14:03:10 [ThreadId 11] ERROR phoityne - [disconnectRequestHandler] ghci not started.
+2022-01-24 14:03:18 [ThreadId 11] ERROR phoityne - ghci launch error. <file descriptor: 49>: hPutChar: resource vanished (Broken pipe)
+
+2022-01-24 14:03:18 [ThreadId 11] ERROR phoityne - [disconnectRequestHandler] ghci not started.
+2022-01-24 16:05:32 [ThreadId 11] ERROR phoityne - ghci launch error. <file descriptor: 49>: hPutChar: resource vanished (Broken pipe)
+
+2022-01-24 16:05:32 [ThreadId 11] ERROR phoityne - [disconnectRequestHandler] ghci not started.
