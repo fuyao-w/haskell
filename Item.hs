@@ -2,6 +2,9 @@ import System.IO
 import System.Directory
 import Data.List
 import System.Environment
+import Data.Sequence.Internal.Sorting (QList(Nil))
+import Data.Sequence (Seq(Empty))
+import qualified Data.Sequence.Internal.Sorting as Main
 
 -- main do
 --   todoItem <- getLine
@@ -72,3 +75,22 @@ remove [fileName,numberString] = do
   hClose tempHandle
   removeFile fileName
   renameFile tempName fileName
+
+
+
+-- main = interact wordCount  where 
+    -- wordCount input = show (length (lines input)) ++\n --  wordCount input = 是函数定义，后面是实现
+
+
+myDrop n xs = if n <= 0 || null xs 
+              then xs 
+              else myDrop (n-1) (tail xs)
+
+
+data Profile = ProductManager  {
+    name :: String 
+}| Chengxuyuan deriving (Show)
+
+
+goodExapmle (x:xs) = x + goodExapmle xs
+goodExapmle _ = 0
